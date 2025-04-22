@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 5px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  margin-right: 10px;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+li {
+  margin: 10px;
+}
+
+.left-nav {
+}
+
+.right-nav {
+  margin-right: 2em;
+}
+
+.right-nav > li {
+  display: inline-flex;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.search {
+  width: 20em;
+  display: flex;
+}
